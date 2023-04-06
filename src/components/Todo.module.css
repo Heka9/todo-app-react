@@ -16,6 +16,7 @@
 .todoText {
 	width: 100%;
 	text-align: left;
+	line-height: 1.2;
 }
 .todoIcon {
 	margin-right: 10px;

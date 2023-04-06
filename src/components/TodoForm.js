@@ -6,7 +6,7 @@ function TodoForm({ addTodo }) {
 
    const onSubmitHandler = (event) => {
       event.preventDefault()
-      addTodo(text)
+      text && addTodo(text)
       setText('')
    }
 
